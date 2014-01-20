@@ -13,15 +13,15 @@ It is based on testing equality of covariances between groups consisting of iden
 and distribution free, and the test of equality of covariances between groups with identical missing data patterns is performed also with options of assuming normality 
 (Hawkins test) or non-parametrically. The user, can optionally use her own method of data imputation as well. Multiple imputation is an option as a diagnostic tool to 
 help identify cases or variables that contribute to rejection of MCAR, when the MCAR test is rejecetd (See Jamshidian and Jalal, 2010 for details). As explained in Jamshidian, 
-Jalal, and Jansen (2012), this package can also be used for imputing missing data, test of multivariate normality, and test of equality of covariances between several groups 
+Jalal, and Jansen (2014), this package can also be used for imputing missing data, test of multivariate normality, and test of equality of covariances between several groups 
 when data are complete.
 }
 \details{
 \tabular{ll}{
 Package: \tab MissMech\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2013-06-23\cr
+Version: \tab 1.0.1\cr
+Date: \tab 2014-01-20\cr
 }
 }
 \author{
@@ -32,7 +32,9 @@ Maintainer: Mortaza Jamshidian <mori@fullerton.edu>
 \references{
 Jamshidian, M. and Jalal, S. (2010). ``Tests of homoscedasticity, normality, and missing at random for incomplete
 multivariate data,'' \emph{Psychometrika,} 75, 649-674.
-
-Jamshidian, M. Jalal, S., and Jansen, C. (2013). ``MissMech: An R package for testing homoscedasticity, multivariate normality, and missing completely at random (MCAR),''  Journal of Statistical Software.
+  
+Jamshidian, M. Jalal, S., and Jansen, C. (2014). `` MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR),''  \emph{ Journal of Statistical Software,}  56(6), 1-31.
+  
+"URL http://www.jstatsoft.org/v56/i06/."
 }
 \keyword{ package }

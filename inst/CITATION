@@ -1,0 +1,20 @@
+citHeader("To cite MissMech in publications use:")
+
+citEntry(entry = "Article",
+  title        = "{MissMech}: An {R} Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR)",
+  author       = personList(as.person("Mortaza Jamshidian"),
+                   as.person("Siavash Jalal"),
+                   as.person("Camden Jansen")),
+  journal      = "Journal of Statistical Software",
+  year         = "2014",
+  volume       = "56",
+  number       = "6",
+  pages        = "1--31",
+  url          = "http://www.jstatsoft.org/v56/i06/",
+
+  textVersion  =
+  paste("Mortaza Jamshidian, Siavash Jalal, Camden Jansen (2014).",
+        "MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR).",
+        "Journal of Statistical Software, 56(6), 1-31.",
+        "URL http://www.jstatsoft.org/v56/i06/.")
+)

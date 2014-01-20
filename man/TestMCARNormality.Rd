@@ -17,7 +17,7 @@ groups with identical missing data patterns is performed also with options of as
 Users can optionally use their own method of data imputation as well. Multiple imputation is an additional feature of
 the program that can be used as a diagnostic tool to help identify cases or variables that contribute to rejection of 
 MCAR, when the MCAR test is rejecetd (See Jamshidian and Jalal, 2010 for details). 
-As explained in Jamshidian, Jalal, and Jansen (2012), this package can also be used 
+As explained in Jamshidian, Jalal, and Jansen (2014), this package can also be used 
 for imputing missing data, test of multivariate normality, and test of equality of covariances between several 
 groups when data are completly observed.
 }
@@ -74,7 +74,7 @@ that of the incomplete data set.
 }
 \details{
 Theoretical, technical and prcatical details about this program and its uses can be found in Jamshidian and Jalal (2010)
- and Jamshidian, Jalal, and Jansen (2012).
+ and Jamshidian, Jalal, and Jansen (2014).
 }
 \value{
   \item{analyzed.data}{The data that were used in the analysis. If del.lesscases=0, this is the same as the orginal data inputted. 
@@ -111,7 +111,7 @@ Statistics,} {24}, 21-41.
 Jamshidian, M. and Jalal, S. (2010). ``Tests of homoscedasticity, normality, and missing at random for incomplete
 multivariate data,'' \emph{Psychometrika,} 75, 649-674.
 
-Jamshidian, M. Jalal, S., and Jansen, C. (2012). ``MissMech: A R package for testing homoscedasticity, multivariate normality, and missing completely at random (MCAR),'' \emph{Submitted.}
+Jamshidian, M. Jalal, S., and Jansen, C. (2014). `` MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR),''  \emph{ Journal of Statistical Software,}  56(6), 1-31.
 }
 \author{
 Mortaza Jamshidian, Siavash Jalal, and Camden Jansen
