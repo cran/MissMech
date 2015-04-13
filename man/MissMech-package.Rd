@@ -20,8 +20,8 @@ when data are complete.
 \tabular{ll}{
 Package: \tab MissMech\cr
 Type: \tab Package\cr
-Version: \tab 1.0.1\cr
-Date: \tab 2014-01-20\cr
+Version: \tab 1.0.2\cr
+Date: \tab 2015-04-13\cr
 }
 }
 \author{

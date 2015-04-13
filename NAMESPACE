@@ -1,1 +1,8 @@
 exportPattern("^[[:alpha:]]+")
+importFrom(graphics, boxplot)
+
+S3method(print, orderpattern)
+S3method(print, testhomosc)
+S3method(summary, orderpattern)
+S3method(summary, testhomosc)
+S3method(boxplot, testhomosc)

@@ -1,6 +1,6 @@
-7b06f0e1fd4d622761fe473a9ba40a83 *DESCRIPTION
-df390c53434517b304ac5db487184641 *NAMESPACE
-ca65466ed3964dd1697f38e0156fb893 *R/AndersonDarling.r
+8a566c525779a5879587af38d82b7dfa *DESCRIPTION
+d7d7643740a4dc09f4a17a47bdb9eb51 *NAMESPACE
+ca65466ed3964dd1697f38e0156fb893 *R/AndersonDarling.R
 f4aabcc9e91f0da578f2f8610a718b8d *R/Ddf.R
 19e22173e0994ebb3526e52ff5288fe0 *R/DelLessData.R
 dbb9d02b757aec8d11484b7b68eb92e8 *R/Hawkins.R
@@ -20,9 +20,9 @@ d9c4657c721acba0088dc23a1584d68e *inst/CITATION
 8d5b7e505e67400eb15530adc9d48c5f *man/Hawkins.Rd
 42cde51484ee2c4b1150d50799134f91 *man/Impute.Rd
 21d2dd8f7be5db7f45abf80d3f2b17e9 *man/LegNorm.Rd
-ff7458e3c3d2b91a097d6152e5366b0d *man/MissMech-package.Rd
+4eef4a9b27166dd9ba09bac10f42e513 *man/MissMech-package.Rd
 3599cf0859d2ae07d665faf2d8dc570c *man/Mls.Rd
 7ad17bb331b4c5074742ec38950bd1d7 *man/OrderMissing.Rd
-70aa77efd598d23efc28516a6779c7ca *man/TestMCARNormality.Rd
+77d5290eaa87884546d7fe461576e750 *man/TestMCARNormality.Rd
 43725464c19fa6b50c50db0310abe38b *man/TestUNey.Rd
 32c87d05dc5a3faddec302ddfc4a5170 *man/agingdata.Rd

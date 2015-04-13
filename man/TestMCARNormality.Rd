@@ -165,10 +165,10 @@ print(out)
 #Out_m <- TestMCARNormality (data = y, imputation.number = 20)
 #boxplot(Out_m)
 
-#use the k nearest neighbor method of the package imputation to impute the missing data
-#require(imputation)
-#yimputed <- kNNImpute(y, k = 3)
-#out_k <- TestMCARNormality(data =y, imputed.data = yimputed$x)
+# One may impute the data using a method other than the methods available in the package
+# MissMech. If object "yimputed" set to be imputed data using other methods, e.g. k nearest
+# neighbor imputation, then in MissMech it can be implemented as follow
+#out_k <- TestMCARNormality(data = y, imputed.data = yimputed)
 #print(out_k)
 
 #-- Example 3: Data are MAR (not MCAR), but are normally distributed
