@@ -2,15 +2,31 @@ Package: MissMech
 Type: Package
 Title: Testing Homoscedasticity, Multivariate Normality, and Missing
         Completely at Random
-Version: 1.0.2
-Date: 2015-04-13
-Author: Mortaza Jamshidian, Siavash Jalal, and Camden Jansen
-Maintainer: Mortaza Jamshidian <mori@fullerton.edu>
+Version: 1.0.3
+Authors@R: c(person(given = "Mortaza", family = "Jamshidian",
+                    email = "mori@fullerton.edu", role = "aut"),
+             person(given = "Siavash", family = "Jalal",
+                    role = "aut"),
+             person(given = "Camden", family = "Jansen",
+                    role = "aut"),
+             person(given = "Mao", family = "Kobayashi",
+                    email = "kobamao.jp@gmail.com", role = "cre"))
 Description: To test whether the missing data mechanism, in a set of incompletely observed data, is one of missing completely at random (MCAR). 
-             For detailed description see Jamshidian, M. Jalal, S., and Jansen, C. (2014). "MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR)," Journal of Statistical Software,  56(6), 1-31. URL http://www.jstatsoft.org/v56/i06/.
-Imports: graphics
+    For detailed description see Jamshidian, M. Jalal, S., and Jansen, C. (2014). "MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR)", Journal of Statistical Software, 56(6), 1-31. <https://www.jstatsoft.org/v56/i06/> <doi:10.18637/jss.v056.i06>.
 License: GPL (>= 2)
+URL: https://github.com/indenkun/MissMech
+BugReports: https://github.com/indenkun/MissMech/issues
 NeedsCompilation: no
-Packaged: 2015-04-14 02:39:36 UTC; Sia
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.0
+Depends: R (>= 2.10)
+Imports: graphics, stats
+Packaged: 2024-01-23 00:47:23 UTC; kobayashi
+Author: Mortaza Jamshidian [aut],
+  Siavash Jalal [aut],
+  Camden Jansen [aut],
+  Mao Kobayashi [cre]
+Maintainer: Mao Kobayashi <kobamao.jp@gmail.com>
 Repository: CRAN
-Date/Publication: 2015-04-14 07:30:05
+Date/Publication: 2024-01-23 13:42:56 UTC
