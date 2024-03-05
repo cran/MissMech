@@ -1,3 +1,7 @@
+# MissMech 1.0.4
+
+* Corrected help documentation and warning messages for the `TestMCARNormality()` function and the `Impute()` function.
+
 # MissMech 1.0.3
 
 * Minor modifications were made to conform to CRAN policy.
